@@ -1,0 +1,4 @@
+# Retirement-Plan-Calculator-App
+The Retirement Plan Calculator is a Java-based desktop application that helps users compare and estimate retirement savings for plans such as 401(k), IRA, and tax treatments like Roth, Traditional.
+
+Developed using Java Swing and AWT, the application provides an interactive graphical user interface where users can enter financial information, calculate projected retirement savings, and visualize growth over time using XChart. The project also uses Java File I/O to save user data and applies object-oriented programming principles, including encapsulation, inheritance, and polymorphism, to create a modular and maintainable design. This project demonstrates my ability to build user-friendly Java applications while applying programming concepts to solve real-world financial planning problems.
