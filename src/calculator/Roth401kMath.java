@@ -1,12 +1,5 @@
 package calculator;
 
-/*
- * Project Name: Retirement Calculator
- * Course: CSCI 185-M01
- * Contributor: Neel Debnath
- * Last Updated: 5/10/2026
- */
-
 public class Roth401kMath extends Four01k {
     // Instance field
     private final double marginalTaxRate;

@@ -1,12 +1,5 @@
 package calculator;
 
-/*
- * Project Name: Retirement Calculator
- * Course: CSCI 185-M01
- * Contributor: Abhiraj Singh
- * Last Updated: 5/10/2026
- */
-
 public abstract class IRA extends RetirementAccount {
     protected double annualContribution;
     protected double taxRate;

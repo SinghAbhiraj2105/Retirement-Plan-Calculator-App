@@ -1,12 +1,5 @@
 package calculator;
 
-/*
- * Project Name: Retirement Calculator
- * Course: CSCI 185-M01
- * Contributor: Neel Debnath
- * Last Updated: 5/12/2026
- */
-
 //imports
 import javax.swing.*;
 import org.knowm.xchart.*;

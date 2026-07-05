@@ -1,12 +1,5 @@
 package calculator;
 
-/*
-Retirement Account Calculator
-CSCI 185
-Contributors: Franko Nava-Islas
-Last Edited: 5/11/2026
- */
-
 import javax.swing.*;
 import java.awt.*;
 

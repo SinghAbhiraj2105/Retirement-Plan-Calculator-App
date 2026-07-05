@@ -1,13 +1,5 @@
 package calculator;
 
-/*
- * Project Name: Retirement Calculator
- * Course: CSCI 185-M01
- * Contributor: Abhiraj Singh
- * Last Updated: 5/10/2026
- */
-
-
 public class TraditionalIRAMath extends IRA {
     private boolean isMaximized;
 

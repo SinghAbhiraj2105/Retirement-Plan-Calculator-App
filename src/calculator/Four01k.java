@@ -1,11 +1,5 @@
 package calculator;
 
-/*
- * Project Name: Retirement Calculator
- * Course: CSCI 185-M01
- * Contributor: Neel Debnath
- * Last Updated: 5/10/2026
- */
 
 public abstract class Four01k extends RetirementAccount {
     // Instance fields
