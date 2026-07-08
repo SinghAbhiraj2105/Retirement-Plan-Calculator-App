@@ -30,32 +30,34 @@ public class PlanFrame extends JFrame {
     }
 
     private void layoutItems(){
-        LayoutManager mgr = new GridLayout(2, 2, 20, 20);
-        setLayout(mgr);
+        setLayout(new BorderLayout(20, 20));
 
-        add(kDesc);
-        add(iraDesc);
-        add(plans);
-        add(submit);
+        JPanel descriptionPanel = new JPanel(new GridLayout(1, 2, 20, 20));
+        descriptionPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 10, 20));
+        descriptionPanel.add(kDesc);
+        descriptionPanel.add(iraDesc);
+
+        JPanel controlPanel = new JPanel(new GridLayout(2, 1, 10, 10));
+        controlPanel.setBorder(BorderFactory.createEmptyBorder(10, 20, 20, 20));
+        controlPanel.add(plans);
+        controlPanel.add(submit);
+
+        add(descriptionPanel, BorderLayout.CENTER);
+        add(controlPanel, BorderLayout.SOUTH);
     }
 
     private void nextPage(){
         if (plans.getSelectedIndex() == 0){
-            // 401k Traditional Calc Frame.setVisible(true)
             SwingUtilities.invokeLater(() -> new Traditional401kGUI().setVisible(true));
         }
         else if (plans.getSelectedIndex() == 1){
-            // 401k Roth Calc Frame.setVisible(true)
             SwingUtilities.invokeLater(() -> new Roth401kGUI().setVisible(true));
         }
         else if (plans.getSelectedIndex() == 2){
-            // IRA Traditional
             SwingUtilities.invokeLater(() -> new TraditionalIRAGUI().setVisible(true));
         }
         else if (plans.getSelectedIndex() == 3){
-            // IRA Roth
             SwingUtilities.invokeLater(() -> new RothIRAGUI().setVisible(true));
-
         }
         dispose();
     }
