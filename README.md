@@ -5,7 +5,7 @@ This project is a Retirement Plan Calculator, which is a Java desktop applicatio
 
 Built with Java Swing and AWT, the application allows users to enter financial information to calculate projected retirement savings, save their graphical data, and visualize their retirement growth using XChart. For the code to work and the graph to be visible you need to download the xchart-3.8.8.jar or a later version and import it into your external JAR libraries in your compiler.
 
-# My Contribution
+## My Contribution
 I contributed to both the development and design of the application. My main contributions were:
 
 <br>
@@ -34,7 +34,7 @@ I contributed to both the development and design of the application. My main con
 
 <br>
 
-# Technologies used
+## Technologies used
 •	Java
 
 <br>
