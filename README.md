@@ -63,11 +63,10 @@ I contributed to both the development and design of the application. My main con
 
 ### Project Screenshots
 
-### Welcome Page
-![Start Page](images/StartPage.jpg)
+| Welcome Page | Calculator Selection Screen |
+| :---: | :---: |
+|![Start Page](images/StartPage.jpg) | ![Calculator Selection Page](images/Calculator_Selection_Page.jpg) |
 
-### Calculator Selection Screen
-![Calculator Selection Page](images/Calculator_Selection_Page.jpg)
 
 ### Traditional Plans
 
