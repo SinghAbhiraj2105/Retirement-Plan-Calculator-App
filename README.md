@@ -55,6 +55,10 @@ I contributed to both the development and design of the application. My main con
 
 <br>
 
+• Exception Handling 
+
+<br>
+
 ### Application Flowchart
 ![Flowchart](images/Flowchart.jpg)
 
